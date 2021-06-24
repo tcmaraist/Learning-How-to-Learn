@@ -7,6 +7,9 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: Helvetica Neue, Arial, sans-serif;
+
+  margin: 0px;
+  padding: 0px;
 }
 
 .border {
@@ -29,6 +32,7 @@
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
+
 .header__square-pic {
   display: flex;
   height: 568px;
@@ -38,7 +42,6 @@
   position: absolute;
   top:64px;
   right:0px;
-  
 }
 
 .logo_place_header {
@@ -81,6 +84,8 @@
 }
 
 .header__main-illustration {
+  margin: 0px;
+  padding: 0px;
   display: flex;
   width: 756px;
   height: 608px;
@@ -115,6 +120,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2F80ED;
 }
 
 .two-columns__main-text {
@@ -281,13 +287,14 @@
 }
 
 .kaufman__table_theme_dark {
-  margin: 0px auto 80px;
-  width: 1100px;
+  margin: 0px auto 90px;
+  max-width: 1100px;
   z-index: 2;
   list-style: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .table__cell_theme_dark {
@@ -295,6 +302,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  padding: 0px;
 }
 
 
