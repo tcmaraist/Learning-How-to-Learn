@@ -172,9 +172,8 @@
   width: 1100px;
   margin: 0px;
   padding-top: 60px;
-  display:flex;
   list-style: none;
-  display: flex;
+  display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 60px;
