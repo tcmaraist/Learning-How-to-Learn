@@ -10,9 +10,7 @@
 <body>
   <div class="page"> 
     <header class="header">
-      <div class=" logo logo_place_header">
-        <img src="./images/logo_place_header.png" alt="Practicum logo in the header">
-      </div>
+      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="Practicum logo in the header">
       <h1 class="header__title">Learning How to Learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning
         techniques that you can apply to your daily life.
@@ -109,7 +107,7 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">5</h4>
-            <p class="table__texttable__text_theme_dark">Obtain critical tools</p>
+            <p class="table__text table__text_theme_dark">Obtain critical tools</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">6</h4>
@@ -137,31 +135,34 @@
     </main>
     <footer class="footer"> 
         <div class="footer__columns">
-          <div class="footer__columns footer__column_content-copyright">
-            <img class="logo logo__place-footer" src="./images/logo_place_footer.png" alt="Practicum logo in the footer">
+          <div class="footer__column footer__column_content-copyright">
+            <img class="logo logo__place_footer" src="./images/logo_place_footer.png" alt="Practicum logo in the footer">
             <p class="footer__author">&copy; 2021 Ty Maraist</p>
           </div>
-          <nav class="footer__columns footer__column_content-about">
+          <div class="footer__column footer__column_content-about">
             <h3 class="footer__column-heading">
               About Practicum by Yandex
             </h3>
-            <ul class="footer__list">
-              <li>
-                <a class="footer__column-link" href="#">Home</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Mission</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Professions</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="footer__columns footer__column_content-social">
+            <nav>
+              <ul class="footer__list">
+                <li>
+                  <a class="footer__column-link" href="#">Home</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="#">Mission</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="#">Professions</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column_content-social">
             <h3 class="footer__column-heading">
               Social media
             </h3>
-            <ul class="footer__list">
+            <nav>
+              <ul class="footer__list">
                 <li>
                   <a class="footer__column-link" href="#">
                     <img class="footer__social-icons" src="./images/facebook_white.svg" alt="Facebook icon">Facebook
@@ -172,8 +173,9 @@
                     <img class="footer__social-icons" src="./images/instagram_white.svg" alt="Instagram icon">Instagram
                   </a>
                 </li>
-            </ul>
-          </nav>
+              </ul>
+            </nav>
+          </div>  
         </div>
       
     </footer>
