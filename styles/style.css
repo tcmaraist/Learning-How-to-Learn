@@ -39,7 +39,6 @@
 }
 
 .logo_place_header {
-  display: flex;
   position: absolute;
   z-index: 3;
   width: 154px;
@@ -49,7 +48,6 @@
 }
 
 .header__title {
-  position: absolute;
   margin: 0px;
   padding-left: 64px;
   width: 730px;
@@ -61,6 +59,7 @@
 
 .header__subtitle {
   margin: 0px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   width: 388px;
@@ -99,12 +98,14 @@
 .two-columns {
   width: 80%;
   margin: 0px auto;
+  padding: 0px;
   display: flex;
   justify-content: space-between;
 }
 
 .two-columns__brief {
   margin: 0px;
+  padding: 0px;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -139,8 +140,7 @@
 
 .digits {
   margin: 0px auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,6 +150,7 @@
 .digits__section-title {
   width:60%;
   margin: 0px;
+  padding: 0px;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -160,7 +161,7 @@
 .digits__section-subtitle {
   width:60%;
   margin:0;
-  padding-top: 20px;
+  padding: 20px 0px 0px;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -169,9 +170,9 @@
 }
 
 .table {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0px;
-  padding-top: 60px;
+  padding: 60px 0px 0px;
   list-style: none;
   display:flex;
   justify-content: space-between;
@@ -187,6 +188,7 @@
 
 .table__heading {
   margin: 0px;
+  padding: 0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -198,7 +200,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  padding-top: 20px;
+  padding: 20px 0px 0px;
   color:#000;
 }
 
@@ -212,7 +214,7 @@
 .feynman__title {
   max-width: 775px;
   margin: 0px auto;
-  padding-top: 100px;
+  padding: 100px 0px 0px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -222,7 +224,7 @@
 
 .feynman__subtitle {
   margin: 0 auto;
-  padding-top: 70px;
+  padding: 70px 0px 0px;
   display: flex;
   justify-content: center;
   line-height: 51px;
@@ -255,14 +257,14 @@
 
 .kaufman {
   margin: 0px;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 90px 0px;
   position: relative;
   background-color: #1f1f1f;
   overflow: hidden;
 }
 .section__title_theme_dark {
   margin: 0px auto;
+  padding: 0px;
   width: 60%;
   text-align: center;
   line-height: 69px;
@@ -275,7 +277,7 @@
 
 .section__subtitle_theme_dark {
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px 0px 0px;
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -286,7 +288,7 @@
 
 .table_theme_dark {
   margin: 0px auto;
-  padding-top: 80px;
+  padding: 80px 0px 0px;
   max-width: 1100px;
   list-style: none;
   display: flex;
@@ -316,7 +318,7 @@
 
 .table__text_theme_dark {
   margin: 0px;
-  padding-top: 20px;
+  padding: 20px 0px 0px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
