@@ -296,6 +296,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 80px normal;
   z-index: 3;
 }
 
@@ -350,13 +351,9 @@
 
 .footer__columns {
   width: 90%;
-  min-height: 350px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
-
-.footer__column {
 }
 
 .footer__column_content-copyright {
@@ -367,7 +364,7 @@
     flex-basis:711px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
