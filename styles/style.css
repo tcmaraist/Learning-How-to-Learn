@@ -1,3 +1,12 @@
+@keyframes rotation {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -9,6 +18,17 @@
   font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
+.link {
+  margin: 0px;
+  padding: 0px;
+  color: #2F80ED;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+.link:hover {
+  opacity: 0.25;
+}
 
 .header {
   height: 100vh;
@@ -20,12 +40,8 @@
   flex-wrap:wrap;
   background-color: #F2F2F2;
   position: relative;
-
-
-  /* parameters for the header section */
+  overflow: hidden;
 }
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 .header__square-pic {
   display: flex;
@@ -36,6 +52,8 @@
   position: absolute;
   top:64px;
   right:0px;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 .logo_place_header {
@@ -83,13 +101,6 @@
   bottom: 0px;
   right: 0px;
   z-index: 2;
-}
-
-.header__link {
-  margin: 0px;
-  padding: 0px;
-  color: #2F80ED;
-  text-decoration: none;
 }
 
 .description {
@@ -151,6 +162,9 @@
   width: 60%;
   margin: 0 auto;
   padding: 0px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
   text-align: center;
   color: #000;
 }
@@ -165,6 +179,9 @@
   width:60%;
   margin:0 auto;
   padding: 20px 0px 0px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
   text-align: center;
   color: #000;
 }
@@ -214,18 +231,21 @@
 }
 
 .video {
-  display: flex;
-  flex-direction: column;
+  
   padding-top: 100px;
 }
 
 .video__section-title {
+  margin: 0 auto;
+  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
 .video__section-subtitle {
+  margin: 0 auto;
+  padding: 20px 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -233,14 +253,20 @@
 
 .video__iframes {
   margin: 0 auto;
-  padding: 50px 0px 0px;
-  border: none;
+  padding: 0px;
+  list-style: none;
   display: flex;
+  justify-content: center;
   gap: 20px;
   z-index: 3;
+  bottom: 0px;
 }
-.iframe {
-
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  border: none;
+  position: relative;
+  bottom: -50px;
 }
 
 .oakley {
@@ -287,8 +313,6 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  color: #2F80ED;
-  text-decoration: none;
 }
 
 .feynman__image {
@@ -308,20 +332,6 @@
   flex-direction: column;
   align-items: center;
 
-}
-/* move elements form .digits__section-title to .section__title */
-
-
-.digits__section-title {
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.digits__section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .table {
@@ -408,18 +418,18 @@
   padding: 68px 0 0;
   display: flex;
   gap: 48px;
+  overflow: hidden;
+  position: relative;
+  top: 202px;
 }
 .khan__book-pic {
   max-width: 620px;
   max-height: 608px;
 }
 .khan__buy-link {
-  color: #2F80ED;
-  text-decoration: none;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-
 }
 
 .kaufman {
@@ -503,6 +513,7 @@
   right: -124px;
   z-index: 1;
   background-image: url("../images/kaufman-triangle.svg");
+  animation: rotation 20s linear infinite;
 }
 
 .resources {
@@ -510,26 +521,8 @@
   margin: 0 auto;
 }
 
-.resources__section-title {
-  margin: 0 auto;
-  padding: 0px;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
 
-.resources__section-subtitle {
-  margin: 0 auto;
-  padding: 20px 0 0;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-
-.logo-zone {
+.resources__logo-zone {
   margin: 0 auto;
   padding: 80px 0 217px;
   max-width: 1100px;
@@ -538,7 +531,7 @@
   justify-content: center;
 }
 
-.resources-logo {
+.resources__logo {
   width: 270px;
   height: 38px;
 }
