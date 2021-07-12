@@ -51,8 +51,8 @@
 @import url(../blocks/content/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/content/kaufman/kaufman.css);
-@import url(../blocks/section-title/_theme/section__title_theme_dark.css);
-@import url(../blocks/section-subtitle/_theme/section__subtitle_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
