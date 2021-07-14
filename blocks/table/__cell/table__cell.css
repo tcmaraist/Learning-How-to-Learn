@@ -2,4 +2,6 @@
     margin: 0px;
     padding: 0px;
     width: 250px;
+    position: relative;
+    z-index: 3;
   }

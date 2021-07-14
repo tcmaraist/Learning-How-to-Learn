@@ -1,8 +1,6 @@
 .header__subtitle {
     margin: 0px;
     padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
     width: 388px;
     line-height: 25px;
     font-size: 18px;
