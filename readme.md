@@ -19,7 +19,7 @@ Vesion 2.0 of **_Learning How to Learn_** introduces Animation to elements in th
 
 ### Future Updates
 
-Vesion 3.0 will implement responsive design.
+Version 2.1 will implement responsive design.
 
 ### Contact
 
