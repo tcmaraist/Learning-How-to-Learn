@@ -8,14 +8,14 @@
 
 - Semantic HTML
 - BEM Methodology for file structures, blocks, elements, and modifiers
-- GIT using the teminal
+- GIT using the terminal
 - Animation
-- Embeded content
+- Embedded content
 - README
 
 ### Updates in Version 2.0
 
-Vesion 2.0 of **_Learning How to Learn_** introduces Animation to elements in the Header and Kaufman blocks, embeded content, an updated BEM file structure, and updated link interactivity.
+Version 2.0 of **_Learning How to Learn_** introduces Animation to elements in the Header and Kaufman blocks, embedded content, an updated BEM file structure, and updated link interactivity.
 
 ### Future Updates
 
@@ -25,4 +25,4 @@ Version 2.1 will implement responsive design.
 
 Ty Maraist
 tcmaraist@gmail.com
-New Orleans, Louisiana
+Nashville, TN
